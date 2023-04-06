@@ -1,0 +1,52 @@
+/* Set the body background color to an ugly shade of blue */
+body {
+  background-color: #37517e;
+}
+
+/* Style the header section */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #fff;
+}
+
+header h1 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+header nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+header nav li {
+  margin: 0 1rem;
+}
+
+header nav a {
+  color: #333;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+/* Style the main content section */
+main {
+  padding: 2rem;
+  background-color: #fff;
+}
+
+main h2 {
+  font-size: 1.5rem;
+}
+
+main p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+/*

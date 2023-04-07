@@ -1,69 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <title>My Personal Website</title>
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="icon" href="favicon.png">
-  </head>
-  <body>
+<html>
+<head>
+  <title>My Portfolio</title>
+  <!-- Link to the css file -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="favicon.png">
+</head>
+<body>
+  <!-- Use a div element with a class of container to wrap the content -->
+  <div class="container">
+    <!-- Use a header element for the title -->
     <header>
-      <h1>My Name</h1>
-      <nav>
-        <ul>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#experience">Experience</a></li>
-          <li><a href="#interests">Personal Interests</a></li>
-        </ul>
-      </nav>
+      <h1>My Portfolio</h1>
     </header>
+    <!-- Use a main element for the content -->
     <main>
-      <div id="skills">
-        <h2>Skills</h2>
-        <ul>
-          <li>HTML5</li>
-          <li>CSS3</li>
-          <li>JavaScript</li>
-          <li>jQuery</li>
-          <li>Bootstrap</li>
-          <li>React</li>
-          <li>Vue.js</li>
-          <li>Angular</li>
-        </ul>
-      </div>
-      <div id="experience">
-        <h2>Experience</h2>
-        <ul>
-          <li>
-            <h3>Job Title</h3>
-            <p>Company Name</p>
-            <p>Month Year - Present</p>
-            <ul>
-              <li>Responsibility 1</li>
-              <li>Responsibility 2</li>
-              <li>Responsibility 3</li>
-            </ul>
-          </li>
-          <li>
-            <h3>Job Title</h3>
-            <p>Company Name</p>
-            <p>Month Year - Month Year</p>
-            <ul>
-              <li>Responsibility 1</li>
-              <li>Responsibility 2</li>
-              <li>Responsibility 3</li>
-            </ul>
-          </li>
-        </ul>
-      </div>
-      <div id="interests">
-        <h2>Personal Interests</h2>
-        <ul>
-          <li>Interest 1</li>
-          <li>Interest 2</li>
-          <li>Interest 3</li>
-        </ul>
+      <!-- Use a div element with a class of row to wrap the sections -->
+      <div class="row">
+        <!-- Use a section element for each section -->
+        <section>
+          <h2>Experience</h2>
+          <p>I have worked as a web developer for three years at XYZ company. I have developed various websites and web applications using HTML, CSS, JavaScript, and PHP.</p>
+          <a href="#">See my projects</a>
+        </section>
+        <section>
+          <h2>Skills</h2>
+          <p>I have proficient skills in HTML, CSS, JavaScript, PHP, and SQL. I also have some experience with React, Node.js, and WordPress.</p>
+          <a href="#">See my certificates</a>
+        </section>
+        <section>
+          <h2>Personal Interests</h2>
+          <p>I enjoy learning new technologies and frameworks. I also like reading books, playing games, and traveling.</p>
+          <a href="#">See my hobbies</a>
+        </section>
       </div>
     </main>
-  </body>
+  </div>
+</body>
 </html>
+

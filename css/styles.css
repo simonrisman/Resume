@@ -3,6 +3,10 @@
 body {
   background-color: #d4e9d7;
   font-family: Arial, sans-serif;
+  
+  /* Remove the default margin and padding of the body element */
+  margin: 0;
+  padding: 0;
 }
 
 /* Use a muted blue for the header background */
@@ -14,7 +18,7 @@ header {
 
 /* Use a white color for the header text */
 header h1 {
-  color: white;
+  color:  #7AA874;
   font-size: 36px;
 }
 
@@ -27,7 +31,7 @@ main {
 
 /* Use a max-width of 1200px for the container element */
 .container {
-  max-width: 1200px;
+  /*max-width: 1200px;*/
   margin: 0 auto;
 }
 
@@ -41,7 +45,7 @@ section {
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
   margin: 20px;
   padding: 20px;
-  
+
   /* Change the width to 100% to span the entire length of the page horizontally */
   width: 100%;
 }
@@ -63,3 +67,60 @@ section a {
   color: #999999;
   font-size: 14px;
 }
+
+/* Use a nav element for the navigation menu */
+nav {
+  
+ /* Use a flexbox layout for the nav items */
+ display: flex;
+ align-items: center;
+
+ /* Use a dark gray color for the nav background */
+ background-color: #333333;
+
+ /* Use a white color for the nav links */
+ color: white;
+
+ /* Use a padding of 10px for the nav element */
+ padding: 10px;
+
+ /* Use a margin of -20px to remove the gap between the nav and the header elements */
+ margin: -20px;
+
+ /* Change the width to calc(100% +40px) to span the entire length of the page horizontally and account for the margin of -20px on each side*/
+ width: calc(100% +40px);
+}
+
+/* Use an unordered list for the nav items */
+nav ul {
+
+ /* Remove the default list-style of the unordered list element */
+ list-style: none;
+
+ /* Remove the default margin and padding of the unordered list element */
+ margin: 0;
+ padding: 0;
+
+ /* Use a flexbox layout for the list items */
+ display: flex;
+
+ /* Use a space-between alignment for the list items */
+ justify-content: space-between;
+
+ /* Change the width to calc(100% -40px) to account for the padding of 10px on each side of the nav element*/
+ width: calc(100% -40px);
+}
+
+/* Use a list item for each nav link */
+nav li {
+
+ /* Use an inline-block display for the list items */
+ display: inline-block;
+
+ /* Use a padding of 10px for each list item */
+ padding:10px;
+
+ /* Change the cursor to pointer when hovering over each list item */
+ cursor:pointer;
+}
+

@@ -41,7 +41,9 @@ section {
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
   margin: 20px;
   padding: 20px;
-  width: 300px;
+  
+  /* Change the width to 100% to span the entire length of the page horizontally */
+  width: 100%;
 }
 
 /* Use a dark green color for the section titles */

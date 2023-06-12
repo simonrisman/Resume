@@ -11,14 +11,14 @@ body {
 
 /* Use a muted blue for the header background */
 header {
-  background-color: #b3cde0;
+  background-color: #d9dbb7;
   padding: 20px;
   text-align: center;
 }
 
 /* Use a white color for the header text */
 header h1 {
-  color:  #7AA874;
+  color:  #d9dbb7;
   font-size: 36px;
 }
 

@@ -59,6 +59,23 @@ section:hover {
   background-image: url('../mcgill.jpg');
 }
 
+section:hover p {
+  opacity: 0;
+}
+
+section:hover h2 {
+  opacity: 0;
+}
+
+section:hover li {
+  opacity: 0;
+}
+
+
+section:hover h3 {
+  opacity: 0;
+}
+
 /* Use a dark green color for the section titles */
 section h2 {
   color: #000000;

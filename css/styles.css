@@ -1,7 +1,7 @@
 
 /* Use a muted green for the body background */
 body {
-  background-color: #d4e9d7;
+  background-color: #7EB2DD;
   font-family: Arial, sans-serif;
   
   /* Remove the default margin and padding of the body element */
@@ -11,14 +11,14 @@ body {
 
 /* Use a muted blue for the header background */
 header {
-  background-color: #d9dbb7;
+  background-color: #f93943b7;
   padding: 20px;
   text-align: center;
 }
 
 /* Use a white color for the header text */
 header h1 {
-  color:  #d9dbb7;
+  color:  rgb(255, 255, 255);
   font-size: 36px;
 }
 
@@ -52,7 +52,7 @@ section {
 
 /* Use a dark green color for the section titles */
 section h2 {
-  color: #4f9a94;
+  color: #000000;
   font-size: 24px;
 }
 

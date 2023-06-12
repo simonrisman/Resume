@@ -49,7 +49,7 @@ section {
   /* Change the width to 100% to span the entire length of the page horizontally */
   width: calc(100% +40px);
   transition-property: background-image;
-  transition-duration: 10s;
+  transition-duration: 3s;
   transition-timing-function: ease-in-out;
 }
 

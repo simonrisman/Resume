@@ -51,8 +51,8 @@ section {
   background-size: cover;
   background-position: center;
   transition-property: background-image;
-  transition-duration: 3s;
-  transition-timing-function: ease-in-out;
+  transition-duration: 10s;
+  transition-timing-function: ease-out;
 }
 
 section:hover {
